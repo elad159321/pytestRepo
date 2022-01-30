@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7240d1f2-d8c6-4f48-b8e8-3d86daa6a8ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fixturesExample.py" afterDir="false" />
+    <list default="true" id="7240d1f2-d8c6-4f48-b8e8-3d86daa6a8ff" name="Default Changelist" comment="Fixture example, in this example we are using fixutre + yield+ &quot;-s&quot; flag in the pytest command, in order to create pre and post conditions">
+      <change afterPath="$PROJECT_DIR$/seleniumExampleWithFixture.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixturesExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixturesExample.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_markersDemo">
+  <component name="RunManager" selected="Python.seleniumExampleWithFixture">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pytestRepo2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +80,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\elad1\PycharmProjects\pytestRepo2\test_firstPytest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="seleniumExampleWithFixture" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pytestRepo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seleniumExampleWithFixture.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,9 +172,11 @@
       <item itemvalue="Python.test_firstPytest" />
       <item itemvalue="Python tests.pytest in pytestRepo" />
       <item itemvalue="Python.test_markersDemo" />
+      <item itemvalue="Python.seleniumExampleWithFixture" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.seleniumExampleWithFixture" />
         <item itemvalue="Python.test_markersDemo" />
         <item itemvalue="Python.test_firstPytest" />
         <item itemvalue="Python.firstPytest" />
@@ -229,7 +253,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643564647198</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixture example, in this example we have a function with a fixture decorator, this function will run before each function that get her as an argument">
+      <created>1643574994701</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643574994701</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fixture example, in this example we are using fixutre + yield+ &quot;-s&quot; flag in the pytest command, in order to create pre and post conditions">
+      <created>1643575068830</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643575068830</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +289,8 @@
     <MESSAGE value="Example for skip marker" />
     <MESSAGE value="exmaple for skipIf marker" />
     <MESSAGE value="@pytest.mark.parametrize example" />
-    <option name="LAST_COMMIT_MESSAGE" value="@pytest.mark.parametrize example" />
+    <MESSAGE value="Fixture example, in this example we have a function with a fixture decorator, this function will run before each function that get her as an argument" />
+    <MESSAGE value="Fixture example, in this example we are using fixutre + yield+ &quot;-s&quot; flag in the pytest command, in order to create pre and post conditions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixture example, in this example we are using fixutre + yield+ &quot;-s&quot; flag in the pytest command, in order to create pre and post conditions" />
   </component>
 </project>

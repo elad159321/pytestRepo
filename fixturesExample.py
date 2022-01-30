@@ -2,7 +2,8 @@ import pytest
 
 @pytest.fixture
 def setup():
-    ''''this function will run before each test that gets it as arguemnt'''
+    ''''Before the yield - its the pre condition
+    After the yield its the post condition '''
     print("start browser")
     yield
     print("close browser")
