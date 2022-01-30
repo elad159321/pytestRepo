@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7240d1f2-d8c6-4f48-b8e8-3d86daa6a8ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/parametirzeMarker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixturesExample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_markersDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_markersDemo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -223,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643563500889</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="@pytest.mark.parametrize example">
+      <created>1643564647198</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643564647198</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +250,7 @@
     <MESSAGE value="Example for using pytest.ini&#10;1. using us for register markers so pytest will not raise warnings &#10;2. using us for defining in advance the flags we want to use when we are running tests" />
     <MESSAGE value="Example for skip marker" />
     <MESSAGE value="exmaple for skipIf marker" />
-    <option name="LAST_COMMIT_MESSAGE" value="exmaple for skipIf marker" />
+    <MESSAGE value="@pytest.mark.parametrize example" />
+    <option name="LAST_COMMIT_MESSAGE" value="@pytest.mark.parametrize example" />
   </component>
 </project>
