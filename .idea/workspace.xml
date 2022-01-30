@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7240d1f2-d8c6-4f48-b8e8-3d86daa6a8ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_markersDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_markersDemo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -208,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643561766738</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Example for skip marker">
+      <created>1643563221460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643563221460</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +233,7 @@
     <MESSAGE value="in this branch we have html and xml reports because in the course he showed how to use pytest-html to create report of the tests that ran" />
     <MESSAGE value="In this commit we have example for pytest markers usage" />
     <MESSAGE value="Example for using pytest.ini&#10;1. using us for register markers so pytest will not raise warnings &#10;2. using us for defining in advance the flags we want to use when we are running tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Example for using pytest.ini&#10;1. using us for register markers so pytest will not raise warnings &#10;2. using us for defining in advance the flags we want to use when we are running tests" />
+    <MESSAGE value="Example for skip marker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Example for skip marker" />
   </component>
 </project>

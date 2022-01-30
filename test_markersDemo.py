@@ -1,5 +1,5 @@
 import pytest
-
+import sys
 @pytest.mark.skip
 def test_ogin():
     print("login")
@@ -10,4 +10,9 @@ def test_add():
 
 @pytest.mark.smoke
 def test_logout():
+    print("logout")
+
+
+@pytest.mark.skipif(sys.version_info<(4,0),reason="Python version not supported")
+def test_dependOnPythonVer():
     print("logout")
