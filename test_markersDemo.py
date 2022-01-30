@@ -1,6 +1,6 @@
 import pytest
 
-@pytest.mark.smoke
+@pytest.mark.skip
 def test_ogin():
     print("login")
 
