@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7240d1f2-d8c6-4f48-b8e8-3d86daa6a8ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/pytestRepo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_another.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_markersDemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_firstPytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_firstPytest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643479323420</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="in this branch we have html and xml reports because in the course he showed how to use pytest-html to create report of the tests that ran">
+      <created>1643558867149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643558867149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +187,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pytest installed and ready after fixing anaconda env variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="pytest installed and ready after fixing anaconda env variables" />
+    <MESSAGE value="in this branch we have html and xml reports because in the course he showed how to use pytest-html to create report of the tests that ran" />
+    <option name="LAST_COMMIT_MESSAGE" value="in this branch we have html and xml reports because in the course he showed how to use pytest-html to create report of the tests that ran" />
   </component>
 </project>
