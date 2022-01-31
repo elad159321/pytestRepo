@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="3" time="0.189" timestamp="2022-01-30T17:42:07.357163" hostname="HKFYSQ2"><testcase classname="test_another" name="test_3" time="0.002"><failure message="AssertionError: ten is not 30&#10;assert 10 == 30">def test_3():
+&gt;       assert 10==30,"ten is not 30"
+E       AssertionError: ten is not 30
+E       assert 10 == 30
+
+test_another.py:2: AssertionError</failure></testcase><testcase classname="test_firstPytest" name="test_1" time="0.002" /><testcase classname="test_firstPytest" name="test_2" time="0.002"><failure message="AssertionError: name not in title&#10;assert 'Elad' in 'The elad'">def test_2():
+        name = "Elad"
+        title ="The elad"
+&gt;       assert name in title, "name not in title"
+E       AssertionError: name not in title
+E       assert 'Elad' in 'The elad'
+
+test_firstPytest.py:7: AssertionError</failure></testcase></testsuite></testsuites>
