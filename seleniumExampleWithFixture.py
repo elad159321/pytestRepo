@@ -20,7 +20,7 @@ def test_1(setup):
     print("test 1 executed")
 
 def test_2(setup):
-    driver.get("https://www.facebook.com/")
+    driver.get("https://www.google.com/")
     print("test 2 executed")
 
 def test_3(setup):
