@@ -1,5 +1,15 @@
 import pytest
 import sys
+
+
+def setup_module(module):
+    print("Before execution")
+
+
+def teardown_module(module):
+    print("teardown")
+
+
 @pytest.mark.skip
 def test_ogin():
     print("login")

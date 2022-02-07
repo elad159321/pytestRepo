@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7240d1f2-d8c6-4f48-b8e8-3d86daa6a8ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/confitest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Elad.html" beforeDir="false" afterPath="$PROJECT_DIR$/Elad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumExampleWithFixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumExampleWithFixture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_markersDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_markersDemo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -282,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643617084546</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding a hook command in a conftest.py file, that will run before each test case">
+      <created>1643928335761</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1643928335761</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +315,7 @@
     <MESSAGE value="Fixture example, in this example we are using fixutre + yield+ &quot;-s&quot; flag in the pytest command, in order to create pre and post conditions" />
     <MESSAGE value="example with fixture + selneuim (opening a real broeswer and closing it each test choose his site to open within the browser" />
     <MESSAGE value="all the reports created" />
-    <option name="LAST_COMMIT_MESSAGE" value="all the reports created" />
+    <MESSAGE value="adding a hook command in a conftest.py file, that will run before each test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding a hook command in a conftest.py file, that will run before each test case" />
   </component>
 </project>
