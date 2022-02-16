@@ -4,10 +4,15 @@ def sniffingAndPrintingRandomPackets():
     resuls = sniff(count=10)
     print (resuls[3].show())
 
-
 def sniffingPakcetsFromSpesificProtocol():
     results = sniff(count=10, filter="icmp")
     print (results.show())
 # sniffingAndPrintingRandomPackets()
 
-sniffingPakcetsFromSpesificProtocol()
+def createPingPacket():
+    packet = Ether()/IP(dst="www.google.com")/ICMP()/"hello!"
+    sendp(packet)
+
+# sniffingPakcetsFromSpesificProtocol()
+
+createPingPacket()
