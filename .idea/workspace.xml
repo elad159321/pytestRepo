@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7240d1f2-d8c6-4f48-b8e8-3d86daa6a8ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wireSharkSniffingNetwork.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wireSharkSniffingNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/wireSharkSniffingNetwork.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -325,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644267627825</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="scapyIntro&#10;sniffing random packets">
+      <created>1645023950902</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1645023950902</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,6 +362,7 @@
     <MESSAGE value="all the reports created" />
     <MESSAGE value="adding a hook command in a conftest.py file, that will run before each test case" />
     <MESSAGE value="in the test_markersDemo ive added teradown and setup functions but they are not hooks as they are not in the confitest.py and the hooks of them are &#10;pytest_runtest_setup&#10;and &#10;pytest_runtest_teardown&#10;so i think what they are doing its to run before the test cases in their pythin file and not before all the tests in the framework like happeing in hooks" />
-    <option name="LAST_COMMIT_MESSAGE" value="in the test_markersDemo ive added teradown and setup functions but they are not hooks as they are not in the confitest.py and the hooks of them are &#10;pytest_runtest_setup&#10;and &#10;pytest_runtest_teardown&#10;so i think what they are doing its to run before the test cases in their pythin file and not before all the tests in the framework like happeing in hooks" />
+    <MESSAGE value="scapyIntro&#10;sniffing random packets" />
+    <option name="LAST_COMMIT_MESSAGE" value="scapyIntro&#10;sniffing random packets" />
   </component>
 </project>
