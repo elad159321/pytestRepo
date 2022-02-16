@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7240d1f2-d8c6-4f48-b8e8-3d86daa6a8ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wireSharkSniffingNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/wireSharkSniffingNetwork.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -346,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645025138193</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="scapyIntro&#10;create ping packet and send it to google and get the&#10;replay">
+      <created>1645025786232</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1645025786232</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,6 +385,7 @@
     <MESSAGE value="scapyIntro&#10;sniffing random packets" />
     <MESSAGE value="scapyIntro&#10;sniffing random packets - from spesfic protocol" />
     <MESSAGE value="scapyIntro&#10;create ping packet and send it to google" />
-    <option name="LAST_COMMIT_MESSAGE" value="scapyIntro&#10;create ping packet and send it to google" />
+    <MESSAGE value="scapyIntro&#10;create ping packet and send it to google and get the&#10;replay" />
+    <option name="LAST_COMMIT_MESSAGE" value="scapyIntro&#10;create ping packet and send it to google and get the&#10;replay" />
   </component>
 </project>
