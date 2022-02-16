@@ -13,6 +13,11 @@ def createPingPacket():
     packet = Ether()/IP(dst="www.google.com")/ICMP()/"hello!"
     sendp(packet)
 
+def createPingPacketAndTrackResponse():
+    packet = IP(dst="www.google.com")/ICMP()/"Hello there!"
+    recivedData = sr1(packet) # sr1 = send and recive
+    recivedData.show()
 # sniffingPakcetsFromSpesificProtocol()
 
-createPingPacket()
+# createPingPacket()
+createPingPacketAndTrackResponse()

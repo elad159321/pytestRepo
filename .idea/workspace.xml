@@ -339,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645024505227</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="scapyIntro&#10;create ping packet and send it to google">
+      <created>1645025138193</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1645025138193</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,6 +378,7 @@
     <MESSAGE value="in the test_markersDemo ive added teradown and setup functions but they are not hooks as they are not in the confitest.py and the hooks of them are &#10;pytest_runtest_setup&#10;and &#10;pytest_runtest_teardown&#10;so i think what they are doing its to run before the test cases in their pythin file and not before all the tests in the framework like happeing in hooks" />
     <MESSAGE value="scapyIntro&#10;sniffing random packets" />
     <MESSAGE value="scapyIntro&#10;sniffing random packets - from spesfic protocol" />
-    <option name="LAST_COMMIT_MESSAGE" value="scapyIntro&#10;sniffing random packets - from spesfic protocol" />
+    <MESSAGE value="scapyIntro&#10;create ping packet and send it to google" />
+    <option name="LAST_COMMIT_MESSAGE" value="scapyIntro&#10;create ping packet and send it to google" />
   </component>
 </project>
