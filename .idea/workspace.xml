@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7240d1f2-d8c6-4f48-b8e8-3d86daa6a8ff" name="Default Changelist" comment="" />
+    <list default="true" id="7240d1f2-d8c6-4f48-b8e8-3d86daa6a8ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wireSharkSniffingNetwork.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="256TxuvVShdpgCrZehaLKSj8vxc" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -41,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.seleniumExampleWithFixture">
+  <component name="RunManager" selected="Python.scapyIntro">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pytestRepo2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,6 +80,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\elad1\PycharmProjects\pytestRepo2\test_firstPytest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scapyIntro" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pytestRepo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Projects\pytestRepo\wireSharkSniffingNetwork.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,12 +191,14 @@
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.firstPytest" />
       <item itemvalue="Python.test_firstPytest" />
-      <item itemvalue="Python tests.pytest in pytestRepo" />
       <item itemvalue="Python.test_markersDemo" />
       <item itemvalue="Python.seleniumExampleWithFixture" />
+      <item itemvalue="Python tests.pytest in pytestRepo" />
+      <item itemvalue="Python.scapyIntro" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scapyIntro" />
         <item itemvalue="Python.seleniumExampleWithFixture" />
         <item itemvalue="Python.test_markersDemo" />
         <item itemvalue="Python.test_firstPytest" />
@@ -194,7 +221,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a6622d2c-d64a-4c41-9849-81fa70fb278c" name="Default Changelist" comment="" />
+      <changelist id="7240d1f2-d8c6-4f48-b8e8-3d86daa6a8ff" name="Default Changelist" comment="" />
       <created>1643374213582</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -291,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644248460732</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="in the test_markersDemo ive added teradown and setup functions but they are not hooks as they are not in the confitest.py and the hooks of them are &#10;pytest_runtest_setup&#10;and &#10;pytest_runtest_teardown&#10;so i think what they are doing its to run before the test cases in their pythin file and not before all the tests in the framework like happeing in hooks">
+      <created>1644267627825</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644267627825</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +333,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
