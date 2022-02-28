@@ -1,3 +1,5 @@
+#!/usr/bin/sudo python3
+
 from scapy.all import *
 
 def sniffingAndPrintingRandomPackets():
@@ -21,8 +23,7 @@ def createPingPacketAndTrackResponse():
 def SendingLotsOfPacketsForCreatingDosAttack():
     send(IP(src="192.168.1.103",dst="192.168.1.1")/TCP(sport=80,dport=80),count=100)
 
-SendingLotsOfPacketsForCreatingDosAttack()
-# sniffingPakcetsFromSpesificProtocol()
-
-# createPingPacket()
+# SendingLotsOfPacketsForCreatingDosAttack()
+#sniffingPakcetsFromSpesificProtocol()
+createPingPacket()
 # createPingPacketAndTrackResponse()
