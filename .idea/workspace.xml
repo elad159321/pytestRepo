@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7240d1f2-d8c6-4f48-b8e8-3d86daa6a8ff" name="Default Changelist" comment="scapyIntro&#10;create ping packet and send it to google and get the&#10;replay">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wireSharkSniffingNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/wireSharkSniffingNetwork.py" afterDir="false" />
-    </list>
+    <list default="true" id="7240d1f2-d8c6-4f48-b8e8-3d86daa6a8ff" name="Default Changelist" comment="scapyIntro&#10;create ping packet and send it to google and get the&#10;replay" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
